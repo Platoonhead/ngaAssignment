@@ -1,7 +1,7 @@
 # NGA-Assignment
 
-It is an akka-streams(alpakka) based application to read csv files containing sensor data from a directory, provided
-as an argument to the application.
+It is an akka-streams(alpakka) based application to read all csv files containing sensor data from a directory. The path to the directory is required to be passed
+as an argument wile running application.
 It produces following stats(sample) 
 
 
@@ -19,7 +19,7 @@ s3,NaN,NaN,NaN
 ## To run the application
 
 ```sh
-sbt "run <path to directory with csv file>"
+sbt "run <path to directory with csv files>"
 ```
 
 example:
