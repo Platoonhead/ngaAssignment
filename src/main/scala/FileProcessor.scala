@@ -20,7 +20,7 @@ object FileProcessor extends App {
   case class HumidityMetrics(min: Option[Int], average: Option[Int], max: Option[Int])
 
   /***
-   * Persistent memory to store data
+   *  In-memory to store data
    */
   var result: TreeMap[String, HumidityMetrics] = TreeMap.empty[String, HumidityMetrics]
 
